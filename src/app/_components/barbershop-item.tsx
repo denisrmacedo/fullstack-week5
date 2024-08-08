@@ -19,7 +19,6 @@ const BarberShopItem = ({ barbershop }: BarbershopItemProps) => {
             className="rounded-2xl object-cover"
             src={barbershop.imageUrl}
           />
-
           <Badge
             className="absolute left-2 top-2 space-x-1"
             variant="secondary"
